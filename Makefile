@@ -8,7 +8,7 @@ ifneq ($(DEBUG),)
 CFLAGS += -g -DDEBUG=1
 endif
 
-test: semver.c semver_test.c
+test: semver.c tests/semver_test.c
 	@$(CC) $(CFLAGS) -o $@ $^
 	@./$@
 

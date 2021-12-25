@@ -1,6 +1,6 @@
 #include <assert.h>
 
-#include "semver.c"
+#include "../semver.c"
 
 void test_strcut_first(char *in, int offset, int len, char *expected) {
     char *p;

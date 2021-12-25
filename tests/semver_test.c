@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "semver.h"
+#include "../semver.h"
 
 #define test_start(x) \
   printf("\n# Test: %s\n", x)  \
